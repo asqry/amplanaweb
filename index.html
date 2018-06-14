@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Amplana Bot</title>
+    </head>
+    <body>
+        <header class="sticky" id="sticky">
+                <div class="header">
+                    <div class="logo">
+                        <h1><span class="highlight">Amplana</span> Bot</h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a target="_blank" class="invite" href="https://discordapp.com/api/oauth2/authorize?client_id=452204322952839169&permissions=8&scope=bot">Invite Amplana</a></li>
+                            <li><a class="link current" href="index.html" class="current">Home</a></li>
+                            <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Commands</a>
+    <div class="dropdown-content">
+      <a href="usefulcommands.html">Useful</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </div>
+  </li>
+                            <li><a class="link" href="supportdisc.html">Join our Support Discord</a></li>
+                            <li><a  href="https://www.github.com/seekeroftacos" class="link">GitHub</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <section id="showcase">
+            <div class="sctext">
+                <h1>Amplana Bot</h1>
+                <p>A Utility, Moderation, Fun, and Admin Bot For Discord</p>
+                <p>Made with the Discord.Js and Node.Js Libraries</p>
+            </div>
+        </section>
+        <footer>
+            <p>Bot Created by &nbsp;&nbsp;<img class="seekprofilepic" src="./images/seekprofilepic.png" width="30px">&nbsp;<span class="username">seekeroftacos#8722</span></p>
+            <p>Download <strong>Node.js</strong></p>
+            <a href="https://www.nodejs.org/en" target="_blank" class="node"><img width="100px" src="./images/node.png" alt=""></a><br>
+            <p>Discord Developer Page</p>
+            <a href="https://discordapp.com/developers/applications/me" target="_blank"><img width="50px" src="./images/botuser.png" alt=""></a><br>
+            <p>Download<strong> Discord.Js</strong></p>
+            <a href="https://discord.js.org/#/" target="_blank"><img width="50px" src="./images/discordjs.png" alt=""></a><br>
+            <p>Discord</p>
+            <a target="_blank" href="https://www.discordapp.com"><img width="50px" src="./images/discordwhite.png" alt=""></a><br>
+            <sub>Credits for images all go to <a href="https://www.discordbots.org" style="color:#99AAB5;text-decoration:none;" class="cl" target="_blank">discordbots.org</a></sub>
+        </footer>
+        <script>
+        // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+header.classList.add("sticky");
+} else {
+header.classList.remove("sticky");
+}
+}
+        </script>
+    </body>
+</html>
